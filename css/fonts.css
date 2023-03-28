@@ -1,0 +1,49 @@
+/* @font-face {
+    font-family: 'Igra Sans';
+    src: url(../font/IgraSans.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Igra Sans';
+} */
+
+@font-face {
+    font-family: 'Resist Sans';
+    src: url(../font/Resist/ResistSansText-Thin.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans';
+    src: url(../font/Resist/ResistSansText-Light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans';
+    src: url(../font/Resist/ResistSansText-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans';
+    src: url(../font/Resist/ResistSansText-Medium.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans';
+    src: url(../font/Resist/ResistSansText-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Resist Sans';
+}

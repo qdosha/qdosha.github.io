@@ -33,13 +33,19 @@ body {
 
 .btn {
     display: inline-block;
+
     color: #f0f0f0;
-    padding: 6px 12px;
-    border-radius: 30px;
     background-color: #2a2a2a;
+
+    padding: 6px 12px;
+
+    border: none;
+    border-radius: 30px;
+
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
 
-.btn--active {
+.btn:hover {
     color: #2a2a2a;
     background-color: #ccc4b9;
 }
@@ -202,19 +208,14 @@ body {
 
 .order__right {
     font-weight: 300;
+    font-size: 1.4vw;
 }
 
 .order__about {
-    font-size: 1.4vw;
     margin-bottom: 1vw;
 }
 
-.order__link {
-    font-size: 1.4vw;
-}
-
 .order__tel {
-    font-size: 1.4vw;
     color: #2a2a2a;
     position: relative;
 }
@@ -247,11 +248,10 @@ body {
 }
 
 .form__titel {
-    font-size: 3.2vw;
-    line-height: .8;
-
     margin-bottom: 2vw;
     cursor: pointer;
+
+    position: relative;
 }
 
 .form--active {
@@ -262,11 +262,22 @@ body {
 .form__exp {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 2vw;
+}
+
+.form__avalid {
+    align-items: center;
+
+    margin-bottom: 2vw;
+}
+
+.form__accept {
+    margin-right: 1vw;
 }
 
 .form__label {
     font-size: 1.4vw;
+    font-weight: 300;
     margin-bottom: 5px;
 }
 

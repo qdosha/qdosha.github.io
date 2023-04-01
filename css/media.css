@@ -28,20 +28,18 @@
         line-height: 1;
     }
 
-    .order__about {
+    .order__right {
         font-size: 1.1vw;
     }
 
-    .order__link {
+    /* form */
+    .form__label {
         font-size: 1.1vw;
     }
 
-    .order__tel {
+    .form__input {
         font-size: 1.1vw;
     }
-
-    /* form*/
-
 
     /* footer */
     .footer-container {
@@ -79,19 +77,18 @@
         line-height: 1;
     }
 
-    .order__about {
+    .order__right {
         font-size: 1.1vw;
     }
 
-    .order__link {
+    /* form */
+    .form__label {
         font-size: 1.1vw;
     }
 
-    .order__tel {
+    .form__input {
         font-size: 1.1vw;
     }
-
-    /* form*/
 
     /* footer */
     .footer-container {
@@ -136,22 +133,21 @@
         line-height: 1;
     }
 
-    .order__about {
+    .order__right {
         font-size: 14px;
         line-height: 1.2;
     }
 
-    .order__link {
+    /* form */
+    .form__label {
         font-size: 14px;
         line-height: 1.2;
     }
 
-    .order__tel {
+    .form__input {
         font-size: 14px;
         line-height: 1.2;
     }
-
-    /* form*/
 
     /* footer */
     .footer-container {
@@ -217,22 +213,25 @@
         margin-bottom: 2vw;
     }
 
-    .order__about {
+    .order__right {
         font-size: 14px;
         line-height: 1.2;
     }
 
-    .order__link {
+    /* form */
+    .order__form {
+        max-width: 98%;
+    }
+
+    .form__label {
         font-size: 14px;
         line-height: 1.2;
     }
 
-    .order__tel {
+    .form__input {
         font-size: 14px;
         line-height: 1.2;
     }
-
-    /* form*/
 
     /* footer */
     .footer-container {
@@ -283,6 +282,9 @@
         display: block;
     }
 
+    .section__titel {
+        font-size: 9.5vw;
+    }
     /* hero */
     .hero-container {
         margin-top: 80px;
@@ -303,7 +305,6 @@
     }
 
     .about__titel {
-        font-size: 9.5vw;
         margin-bottom: 25px;
     }
 
@@ -342,25 +343,29 @@
         line-height: 1;
 
         width: 100%;
+        margin: 0;
         margin-bottom: 2vw;
     }
 
-    .order__about {
+    .order__right {
         font-size: 4.8vw;
         line-height: 1.2;
     }
 
-    .order__link {
+    /* form */
+    .order__form {
+        max-width: 98%;
+    }
+
+    .form__label {
         font-size: 4.8vw;
         line-height: 1.2;
     }
 
-    .order__tel {
+    .form__input {
         font-size: 4.8vw;
         line-height: 1.2;
     }
-
-    /* form*/
 
     /* footer */
     .footer-container {
@@ -395,6 +400,10 @@
         margin-bottom: 25px;
     }
 
+    .section__titel {
+        font-size: 9.5vw;
+    }
+
     /* header */
     .header__logo {
         font-size: 16px;
@@ -424,7 +433,6 @@
     }
 
     .about__titel {
-        font-size: 9.5vw;
         margin-bottom: 25px;
     }
 
@@ -466,23 +474,26 @@
         margin-bottom: 2vw;
     }
 
-    .order__about {
-        font-size: 4.8vw;
-        line-height: 1.2;
-    }
-
-    .order__link {
-        font-size: 4.8vw;
-        line-height: 1.2;
-    }
-
-    .order__tel {
+    .order__right {
         font-size: 4.8vw;
         line-height: 1.2;
     }
 
     /* form*/
-    
+    .order__form {
+        max-width: 98%;
+    }
+
+    .form__label {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    .form__input {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
     /* footer */
     .footer-container {
         font-size: 12px;

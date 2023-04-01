@@ -14,20 +14,6 @@
         font-size: 1.8vw;
     }
 
-    /* card */
-    .card {
-        width: 22.5vw;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 1.48vw;
-        line-height: .9;
-    }
-
     /* about */
     .about__slogan {
         line-height: 1;
@@ -36,6 +22,26 @@
     .about__info {
         font-size: 1.1vw;
     }
+
+    /* order */
+    .order__list {
+        line-height: 1;
+    }
+
+    .order__about {
+        font-size: 1.1vw;
+    }
+
+    .order__link {
+        font-size: 1.1vw;
+    }
+
+    .order__tel {
+        font-size: 1.1vw;
+    }
+
+    /* form*/
+
 
     /* footer */
     .footer-container {
@@ -59,26 +65,6 @@
         font-size: 14px;
     }
 
-    /* card */
-    .work__grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        row-gap: 2vw;
-    }
-
-    .card {
-        width: 47vw;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 1.48vw;
-        line-height: .9;
-    }
-
     /* about */
     .about__slogan {
         line-height: 1;
@@ -87,6 +73,25 @@
     .about__info {
         font-size: 1.1vw;
     }
+
+    /* order */
+    .order__list {
+        line-height: 1;
+    }
+
+    .order__about {
+        font-size: 1.1vw;
+    }
+
+    .order__link {
+        font-size: 1.1vw;
+    }
+
+    .order__tel {
+        font-size: 1.1vw;
+    }
+
+    /* form*/
 
     /* footer */
     .footer-container {
@@ -114,26 +119,6 @@
         font-size: 14px;
     }
 
-    /* card */
-    .work__grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        row-gap: 2vw;
-    }
-
-    .card {
-        width: 47vw;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 1.48vw;
-        line-height: .9;
-    }
-
     /* about */
     .about__slogan {
         font-size: 2.4vw;
@@ -144,6 +129,29 @@
         font-size: 14px;
         line-height: 1.2;
     }
+
+    /* order */
+    .order__list {
+        font-size: 2.4vw;
+        line-height: 1;
+    }
+
+    .order__about {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .order__link {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .order__tel {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* form*/
 
     /* footer */
     .footer-container {
@@ -171,27 +179,6 @@
         font-size: 14px;
     }
 
-    /* card */
-    .work__grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        grid-row-gap: 2vw;
-        grid-column-gap: 1vw;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 3.4vw;
-        line-height: .9;
-    }
-
     /* about */
     .about__text {
         flex-direction: column;
@@ -216,6 +203,36 @@
         font-size: 14px;
         line-height: 1.2;
     }
+
+    /* order */
+    .order__info {
+        flex-direction: column;
+    }
+
+    .order__list {
+        font-size: 2.4vw;
+        line-height: 1;
+
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    .order__about {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .order__link {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .order__tel {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* form*/
 
     /* footer */
     .footer-container {
@@ -280,26 +297,6 @@
         font-size: 14px;
     }
 
-    /* card */
-    .work__grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        row-gap: 2vw;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 5vw;
-        line-height: .9;
-    }
-
     /* about */
     .about-container {
         margin-bottom: 25px;
@@ -334,6 +331,36 @@
         font-size: 4.8vw;
         line-height: 1.2;
     }
+
+    /* order */
+    .order__info {
+        flex-direction: column;
+    }
+
+    .order__list {
+        font-size: 5vw;
+        line-height: 1;
+
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    .order__about {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    .order__link {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    .order__tel {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    /* form*/
 
     /* footer */
     .footer-container {
@@ -391,26 +418,6 @@
         font-size: 14px;
     }
 
-    /* card */
-    .work__grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        row-gap: 7vw;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    .card__info {
-        font-size: 12px;
-    }
-
-    .card__label {
-        font-size: 5vw;
-        line-height: .9;
-    }
-
     /* about */
     .about-container {
         margin-bottom: 25px;
@@ -446,6 +453,36 @@
         line-height: 1.2;
     }
 
+     /* order */
+     .order__info {
+        flex-direction: column;
+    }
+
+    .order__list {
+        font-size: 5vw;
+        line-height: 1;
+
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    .order__about {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    .order__link {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    .order__tel {
+        font-size: 4.8vw;
+        line-height: 1.2;
+    }
+
+    /* form*/
+    
     /* footer */
     .footer-container {
         font-size: 12px;
